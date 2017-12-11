@@ -1,6 +1,8 @@
 # -*- coding:utf-8 -*- 
 __author__ = 'John 2017/12/11 11:34'
 from PIL import Image
+
+
 target = ''
 image = Image.open('oxygen.png')
 for i in range(0, 607, 7):
